@@ -1,0 +1,119 @@
+.top-container{
+  text-align: center;
+  color:#deecff;
+  background-color: #4f9da6;
+  padding: 7% 25%;
+  position: relative;
+}
+.pe-name{
+  font-size: 3.5rem;
+  line-height: .5;
+  font-family: "Montserrat";
+}
+.diescribe{
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+.photo{
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+}
+.white-section{
+  text-align:center;
+  color: #4f9da6;
+}
+.color-section{
+  text-align:center;
+  color: #4f9da6;
+  line-height: 2.5rem;
+}
+.feature-box{
+  padding-top: 7%;
+  position: absolute;
+  text-align:left;
+}
+.text-style{
+  font-size: 20px;
+  color: #2b2726;
+  line-height: 2rem;
+  margin: 0;
+  font-family: "Open Sans";
+}
+.container{
+  text-align: center;
+  color: #4f9da6;
+}
+.format{
+  border: 5% 7%;
+}
+.Experience{
+  margin-top: 5%;
+}
+.time-period{
+  font-size: 1rem;
+  padding-top: 5%;
+  font-family: "sans-serif";
+}
+.padd{
+  padding: 50px 30px;
+}
+.name{
+  text-align: left;
+}
+.tindog{
+  width: 25rem;
+
+}
+.tindao:hover{
+  display: block;
+}
+.container-fluid{
+  line-height: 2.5rem;
+  font-family: "sans-serif";
+}
+.github{
+  margin: 1.5rem;
+
+}
+#information{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+#experience{
+  background-color: #dfe2e2;
+  padding: 7% 15%;
+}
+#ability{
+  margin: 7% 15%;
+}
+#Project{
+  background-color: #dfe2e2;
+  padding: 7% 15%;
+}
+#footer{
+  padding: 7% 15%;
+}
+hr{
+  border: 0;
+  height: 0;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+h2{
+  font-size: 3.5rem;
+}
+p{
+  font-size: 1.5rem;
+}
+h3{
+  padding-bottom: 3%;
+}
+h4{
+  font-family: "Montserrat-Black";
+  font-size: 0.5rem;
+}
+li{
+  list-style-type: none;
+}
