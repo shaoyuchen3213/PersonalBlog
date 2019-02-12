@@ -7,9 +7,11 @@ for(var i=0;i<document.querySelectorAll(".drum").length; i++){
   function PlaySound(){
     var character=this.innerHTML;
     makeSound(character);
+    buttonAnimation(character);
     }
   function PlaySound2(char){
       makeSound(char.key);
+      buttonAnimation(char.key);
     }
   function makeSound(key){
     switch (key) {
@@ -44,4 +46,11 @@ for(var i=0;i<document.querySelectorAll(".drum").length; i++){
       default:
         console.log("You do something wrong");
   }
+}
+function buttonAnimation(key){
+  var activeButton= document.querySelector("."+key);
+  activeButton.classList.add("pressed");
+  setTimeout(function() {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
